@@ -35,5 +35,5 @@
   "dependencies": {
     "@cocreate/docs": "^1.0.3",
     "aws-sdk": "^2.820.0"
-  },
+  }
 }
