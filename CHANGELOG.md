@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.0...v1.0.1) (2021-01-16)
+
+
+### Bug Fixes
+
+* fix build ([3265249](https://github.com/CoCreate-app/CoCreate-s3/commit/3265249c61f325091cf516d8a49195780d8596fe))
+
 # 1.0.0 (2021-01-16)
 
 
