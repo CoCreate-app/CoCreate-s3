@@ -1,3 +1,11 @@
+# 1.0.0 (2021-01-16)
+
+
+### Bug Fixes
+
+* (publish to npm) ([b1a96d5](https://github.com/CoCreate-app/CoCreate-s3/commit/b1a96d5ff9c8e0fccac70ceae55a282e62968f97))
+* (publish to npm) ([884c3e4](https://github.com/CoCreate-app/CoCreate-s3/commit/884c3e44946f755cde660d5bfc23cca26a2504a1))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.0...v1.0.1) (2020-12-21)
 
 

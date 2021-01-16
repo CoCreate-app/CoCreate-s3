@@ -2,7 +2,25 @@
   "name": "@CoCreate/s3",
   "version": "1.0.0",
   "description": "A simple HTML5 and pure javascript component. Easy configuration using data-attributes and/or JavaScript API. Highly customizable and styleable.",
-  "keywords": ["cocreate","no-code-framework","low-code-framework","cocreatejs","cocreatejs-component","cocreate-framework","no-code","low-code","collaborative-framework","realtime","realtime-framework","collaboration","html5","shared-editing","html5-framework","javascript-framework","framework"],
+  "keywords": [
+    "cocreate",
+    "no-code-framework",
+    "low-code-framework",
+    "cocreatejs",
+    "cocreatejs-component",
+    "cocreate-framework",
+    "no-code",
+    "low-code",
+    "collaborative-framework",
+    "realtime",
+    "realtime-framework",
+    "collaboration",
+    "html5",
+    "shared-editing",
+    "html5-framework",
+    "javascript-framework",
+    "framework"
+  ],
   "publishConfig": {
     "access": "public"
   },
