@@ -1,5 +1,5 @@
 {
-  "name": "@CoCreate/boilerplate",
+  "name": "@CoCreate/s3",
   "version": "1.0.0",
   "description": "A simple HTML5 and pure javascript component. Easy configuration using data-attributes and/or JavaScript API. Highly customizable and styleable.",
   "keywords": ["cocreate","no-code-framework","low-code-framework","cocreatejs","cocreatejs-component","cocreate-framework","no-code","low-code","collaborative-framework","realtime","realtime-framework","collaboration","html5","shared-editing","html5-framework","javascript-framework","framework"],
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreate-app/CoCreate-boilerplate.git"
+    "url": "git+https://github.com/CoCreate-app/CoCreate-s3.git"
   },
   "author": "CoCreate LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-boilerplate/issues"
+    "url": "https://github.com/CoCreate-app/CoCreate-s3/issues"
   },
-  "homepage": "https://cocreatejs.com/docs/boilderplate",
+  "homepage": "https://cocreatejs.com/docs/s3",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
@@ -34,5 +34,6 @@
   },
   "dependencies": {
     "@cocreate/docs": "^1.0.3"
-  }
+    "aws-sdk": "^2.820.0"
+  },
 }

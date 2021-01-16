@@ -12,7 +12,7 @@ module.exports = {
 
   // Path to your entry point. From this file Webpack will begin his work
   entry: {
-    'CoCreate-boilerplate': './src/CoCreate-boilerplate.js',
+    'CoCreate-s3': './src/CoCreate-s3.js',
   },
 
  // Path and filename of your result bundle.
@@ -22,7 +22,7 @@ module.exports = {
     filename: isProduction ? '[name].min.js' : '[name].js',
     libraryTarget: 'umd',
     libraryExport: 'default',
-    library: 'CoCreateSelected',
+    library: 'CoCreateS3',
     globalObject: "this",
   },
 
