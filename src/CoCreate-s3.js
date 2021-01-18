@@ -3,15 +3,9 @@ const path = require('path');
 var fs = require('fs');
 const core = require('@actions/core');
 
-const AWS_KEY_ID = core.getInput('aws-key-id', {
-  required: true
-});
-const AWS_ACCESS_KEY = core.getInput('aws-access-key', {
-  required: true
-});
-const source = core.getInput('source', {
-  required: true
-});
+const AWS_KEY_ID = core.getInput('aws-key-id');
+const AWS_ACCESS_KEY = core.getInput('aws-access-key');
+const source = core.getInput('source');
 
 
 console.log("Saving File in S3");
