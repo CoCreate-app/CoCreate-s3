@@ -2,13 +2,14 @@ const S3 = require('aws-sdk/clients/s3')
 const path = require('path');
 var fs = require('fs');
 const core = require('@actions/core');
-const AWS_ACCESS_KEY = core.getInput('AWS_ACCESS_KEY', {
+
+const AWS_KEY_ID = core.getInput('aws-key-id', {
   required: true
 });
-const AWS_KEY_ID = core.getInput('AWS_KEY_ID', {
+const AWS_ACCESS_KEY = core.getInput('aws-access-key', {
   required: true
 });
-const DIST_FILE_NAME = core.getInput('DIST_FILE_NAME', {
+const source = core.getInput('source', {
   required: true
 });
 
@@ -19,9 +20,9 @@ let s3 = new S3({
   secretAccessKey: AWS_ACCESS_KEY,
 })
 const config = {
-  Key: path.basename(DIST_FILE_NAME),
+  Key: path.basename(source),
   Bucket: 'testcrudbucket',
-  Body: fs.createReadStream(DIST_FILE_NAME),
+  Body: fs.createReadStream(source),
   ACL: 'public-read'
 }
 s3.upload(config, function(err, data) {

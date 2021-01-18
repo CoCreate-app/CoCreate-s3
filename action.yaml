@@ -1,13 +1,13 @@
 name: 'cocreate-s3'
 description: 'uploads to cdn'
 inputs:
-  AWS_KEY_ID:  # id of input
-    description: 'AWSKEYID'
+  aws-key-id:  # id of input
+    description: 'AWS_ACCESS_KEY'
     required: true
-  AWS_ACCESS_KEY:  # id of input
-    description: 'AWSACCESSKEY'
+  aws-access-key:  # id of input
+    description: 'AWS_ACCESS_KEY'
     required: true
-  DIST_FILE_NAME:  # id of input
+  source:  # id of input
     description: 'file to be uploaded to s3'
     required: true
 outputs:
