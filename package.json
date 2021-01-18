@@ -51,6 +51,8 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
     "@cocreate/docs": "^1.0.3",
     "aws-sdk": "^2.820.0"
   }

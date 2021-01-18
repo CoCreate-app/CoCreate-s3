@@ -1,0 +1,39 @@
+name: 'cocreate-s3'
+description: 'uploads to cdn'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'composite'
+  steps:
+          uses: actions/setup-node@v2
+        with:
+          node-version: 'v14.15.4'
+    - run: ${{ github.action_path }}/src/pre.sh
+      shell: bash
+    - run: node ./src/CoCreate-s3.js
+      shell: bash
+
+    #   - name: setup nodejs
+    #     uses: actions/setup-node@v2
+    #     with:
+    #       node-version: 'v10.16.0'
+          
+    #   # - name: build production version
+    #   - run: yarn install --frozen-lockfile
+    #   - run: yarn build
+
+      
+    #   - name: make ready to upload to s3
+    #     run: (cd ./.github/workflows/  && yarn install)
+    #   - name: upload to s3
+    #     run: node ./.github/workflows/upload_s3.js 
+    #     env:
+    #       AWSKEYID: ${{ secrets.AWSKEYID }}
+    #       AWSACCESSKEY: ${{ secrets.AWSACCESSKEY }}
+    #       DIST_FILE_NAME: './dist/CoCreate-styles.min.js'
