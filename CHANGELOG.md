@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.1...v1.0.2) (2021-01-18)
+
+
+### Bug Fixes
+
+* rename action ([7b9aec2](https://github.com/CoCreate-app/CoCreate-s3/commit/7b9aec28ea360ca58586613380f4ba430f447e6b))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.0...v1.0.1) (2021-01-16)
 
 
