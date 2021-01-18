@@ -1,19 +1,24 @@
 name: 'cocreate-s3'
 description: 'uploads to cdn'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  AWSKEYID:  # id of input
+    description: 'AWSKEYID'
     required: true
-    default: 'World'
+  AWSACCESSKEY:  # id of input
+    description: 'AWSACCESSKEY'
+    required: true
+  DIST_FILE_NAME:  # id of input
+    description: 'file to be uploaded to s3'
+    required: true
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  success: 
+    description: 'successful'
 runs:
   using: 'composite'
   steps:
-          uses: actions/setup-node@v2
-        with:
-          node-version: 'v14.15.4'
+      uses: actions/setup-node@v2
+      with:
+        node-version: 'v14.15.4'
     - run: ${{ github.action_path }}/src/pre.sh
       shell: bash
     - run: node ./src/CoCreate-s3.js
