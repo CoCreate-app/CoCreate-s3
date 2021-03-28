@@ -9,11 +9,18 @@ const AWS_KEY_ID = core.getInput('aws-key-id', {
 const AWS_ACCESS_KEY = core.getInput('aws-access-key', {
   required: true
 });
+const BUCKET = core.getInput('bucket', {
+  required: true
+});
+const VISIBILITY = core.getInput('acl', {
+  required: true
+});
 const mainsource = core.getInput('source', {
   required: true
 });
-// let mainsource = '../../CoCreateJS/prod';
-// let mainsource = '../../CoCreateCSS/dist/Css.js';
+const DESTINATION = core.getInput('destination', {
+  required: false
+});
 
 
 
@@ -24,8 +31,8 @@ let s3 = new S3({
 })
 // s3.config.setPromisesDependency()
 const config = {
-  Bucket: 'testcrudbucket/testing',
-  ACL: 'public-read'
+  Bucket: BUCKET+DESTINATION,
+  ACL: VISIBILITY
 }
 
 
