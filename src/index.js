@@ -9,29 +9,60 @@ const AWS_KEY_ID = core.getInput('aws-key-id', {
 const AWS_ACCESS_KEY = core.getInput('aws-access-key', {
   required: true
 });
-const source = core.getInput('source', {
+const mainsource = core.getInput('source', {
   required: true
 });
+// let mainsource = '../../CoCreateJS/prod';
+// let mainsource = '../../CoCreateCSS/dist/Css.js';
 
 
-console.log("Saving File in S3");
+
+// let source = './src/pre.sh'
 let s3 = new S3({
   accessKeyId: AWS_KEY_ID,
   secretAccessKey: AWS_ACCESS_KEY,
 })
+// s3.config.setPromisesDependency()
 const config = {
-  Key: path.basename(source),
   Bucket: 'testcrudbucket',
-  Body: fs.createReadStream(source),
   ACL: 'public-read'
 }
-s3.upload(config, function(err, data) {
 
-  if (err) {
-    console.log("could not upload to s3: ", err)
-    process.exit(1)
+
+
+function uploadFiles(source) {
+  if (fs.lstatSync(source).isDirectory()) {
+    uploadDirRec(source)
+  }else
+  {
+    let filename = path.resolve(source)
+    uploadFile(filename)
   }
-  else
-    console.log("File saved in S3", data)
+}
 
-})
+
+function uploadDirRec(source) {
+  fs.readdirSync(source).forEach(async function(file) {
+    let filename = path.resolve(source, file)
+
+    if (fs.lstatSync(filename).isDirectory()) {
+      uploadDirRec(filename);
+      return;
+    }
+
+    await uploadFile(filename)
+  
+  })
+}
+
+async function uploadFile(filename) {
+
+  config.Key = path.relative(mainsource, filename);
+  config.Body = fs.createReadStream(filename);
+
+  let r = await s3.upload(config).promise();
+  console.log("Saving File in S3", r);
+}
+
+
+uploadFiles(mainsource)
