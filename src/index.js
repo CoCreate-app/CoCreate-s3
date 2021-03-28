@@ -31,7 +31,8 @@ let s3 = new S3({
 })
 // s3.config.setPromisesDependency()
 const config = {
-  Bucket: BUCKET+DESTINATION,
+  Bucket: BUCKET,
+  // Bucket: BUCKET+DESTINATION,
   ACL: VISIBILITY
 }
 
