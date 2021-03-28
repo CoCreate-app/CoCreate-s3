@@ -24,7 +24,7 @@ let s3 = new S3({
 })
 // s3.config.setPromisesDependency()
 const config = {
-  Bucket: 'testcrudbucket',
+  Bucket: 'testcrudbucket/testing',
   ACL: 'public-read'
 }
 
