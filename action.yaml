@@ -1,21 +1,27 @@
-name: 'cocreate-s3'
-description: 'uploads to cdn'
+name: cocreate-s3
+description: uploads to cdn
 inputs:
-  aws-key-id:  # id of input
-    description: 'AWS_ACCESS_KEY'
+  aws-key-id:
+    description: AWS_ACCESS_KEY
     required: true
-  aws-access-key:  # id of input
-    description: 'AWS_ACCESS_KEY'
+  aws-access-key:
+    description: AWS_ACCESS_KEY
     required: true
-  source:  # id of input
-    description: 'file to be uploaded to s3'
+  bucket:
+    description: Bucket name
+    required: true
+  source:
+    description: file to be uploaded to s3
+    required: true
+  destination:
+    description: destination in s3
+    required: false
+  acl:
+    description: public or private
     required: true
 outputs:
-  success: 
-    description: 'successful'
+  success:
+    description: successful
 runs:
-  using: 'node12'
-  main: './src/index.js'
-   
-
- 
+  using: node12
+  main: ./src/index.js
