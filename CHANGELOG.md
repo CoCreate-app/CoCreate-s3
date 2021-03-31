@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.5...v1.0.6) (2021-03-31)
+
+
+### Bug Fixes
+
+* remove yarn.lock and package-lock.json ([a741856](https://github.com/CoCreate-app/CoCreate-s3/commit/a74185620393419a29d4030f8a0a283c53dd32d2))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.4...v1.0.5) (2021-03-29)
 
 
