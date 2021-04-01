@@ -2,7 +2,7 @@ const S3 = require('aws-sdk/clients/s3')
 const path = require('path');
 var fs = require('fs');
 const core = require('@actions/core');
-
+const getMime = require('./mime');
 const AWS_KEY_ID = core.getInput('aws-key-id', {
   required: true
 });
@@ -67,10 +67,12 @@ async function uploadFile(filename) {
 
   config.Key = path.relative(mainsource, filename);
   config.Body = fs.createReadStream(filename);
-
+  config.ContentType = getMime(filename)
   let r = await s3.upload(config).promise();
   console.log("Saving File in S3", r);
 }
 
 
 uploadFiles(mainsource)
+
+
