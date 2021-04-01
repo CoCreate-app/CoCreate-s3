@@ -67,7 +67,7 @@ async function uploadFile(filename) {
 
   config.Key = path.relative(mainsource, filename);
   config.Body = fs.createReadStream(filename);
-  config.ContentType = getMime(filename)
+  config.ContentType = getMime(path.extname(filename))
   let r = await s3.upload(config).promise();
   console.log("Saving File in S3", r);
 }
