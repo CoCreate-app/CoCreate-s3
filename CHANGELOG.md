@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.6...v1.1.0) (2021-04-01)
+
+
+### Features
+
+* add mime type when uploading ([58604b0](https://github.com/CoCreate-app/CoCreate-s3/commit/58604b089cf591234d25ad4530b67bdef69c7f97))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.0.5...v1.0.6) (2021-03-31)
 
 
