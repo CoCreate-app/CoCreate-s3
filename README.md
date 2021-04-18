@@ -9,7 +9,7 @@ A simple s3 component in vanilla javascript. Easily configured using HTML5 data-
 
 ![CoCreate-s3](https://cdn.cocreate.app/docs/CoCreate-s3.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/s3)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/s3)
 
