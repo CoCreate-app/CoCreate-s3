@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.2...v1.1.3) (2021-04-19)
+
+
+### Bug Fixes
+
+* npm publish and cdn deployment ([c09e7d2](https://github.com/CoCreate-app/CoCreate-s3/commit/c09e7d26c509cfecc44a05e27cf8301ad74e0419))
+
 ## [1.1.2](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.1...v1.1.2) (2021-04-19)
 
 
