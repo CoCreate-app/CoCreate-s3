@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.4...v1.1.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([9776fae](https://github.com/CoCreate-app/CoCreate-s3/commit/9776fae6457cc660b39feea0b3095190492bc923))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.3...v1.1.4) (2021-04-23)
 
 
