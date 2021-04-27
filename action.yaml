@@ -19,6 +19,9 @@ inputs:
   acl:
     description: public or private
     required: true
+  invalidations:
+    description: invalidates current path so new upload can be cached
+    required: false
 outputs:
   success:
     description: successful
