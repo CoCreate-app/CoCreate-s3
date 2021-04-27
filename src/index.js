@@ -21,6 +21,9 @@ const mainsource = core.getInput('source', {
 const DESTINATION = core.getInput('destination', {
   required: false
 });
+const INVALIDATIONS = core.getInput('invalidations', {
+  required: false
+});
 
 
 
