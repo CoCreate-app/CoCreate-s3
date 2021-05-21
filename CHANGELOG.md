@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.9...v1.1.10) (2021-05-21)
+
+
+### Bug Fixes
+
+* add config for aws ([a9bb18d](https://github.com/CoCreate-app/CoCreate-s3/commit/a9bb18d35b3bf49e15d431edc882bc5e92a423b1))
+
 ## [1.1.9](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.8...v1.1.9) (2021-05-21)
 
 
