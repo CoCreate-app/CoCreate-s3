@@ -23,7 +23,7 @@ var bucketParams = {
 // });
 
 var params = {
-    DistributionId: 'XXX',
+    DistributionId: 'E1UQ5BHNWKZF8M',
     /* required */
     InvalidationBatch: { /* required */
         CallerReference: Date.now().toString(),
@@ -32,7 +32,7 @@ var params = {
             Quantity: 1,
             /* required */
             Items: [
-                'testcrudbucket/parallax-chunk.min.css',
+                '/latest/*.*',
                 /* more items */
             ]
         }
@@ -41,8 +41,8 @@ var params = {
 
 
 var cloudfront = new AWS.CloudFront();
-var distributions = cloudfront.listDistributions();
-console.log(distributions)
+// var distributions = cloudfront.listDistributions();
+
 cloudfront.createInvalidation(params, function(err, data) {
     if (err) console.log(err, err.stack); // an error occurred
     else console.log(data); // successful response
