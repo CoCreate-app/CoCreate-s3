@@ -87,7 +87,7 @@ async function uploadFile(filename) {
 uploadFiles(mainsource)
 
 
-if (INVALIDATIONS && DistributionId) {
+if (INVALIDATIONS && DistributionId !== '') {
     var params = {
         DistributionId: DistributionId,
         /* required */
