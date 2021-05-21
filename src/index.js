@@ -24,6 +24,9 @@ const DESTINATION = core.getInput('destination', {
 const INVALIDATIONS = core.getInput('invalidations', {
   required: false
 });
+const DistributionId = core.getInput('distributionId', {
+  required: false
+});
 
 
 

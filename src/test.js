@@ -23,7 +23,7 @@ var bucketParams = {
 // });
 
 var params = {
-    DistributionId: 'XXX',
+    DistributionId: 'E1UQ5BHNWKZF8M',
     /* required */
     InvalidationBatch: { /* required */
         CallerReference: Date.now().toString(),
@@ -32,7 +32,7 @@ var params = {
             Quantity: 1,
             /* required */
             Items: [
-                'testcrudbucket/parallax-chunk.min.css',
+                '/latest',
                 /* more items */
             ]
         }
