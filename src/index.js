@@ -1,4 +1,5 @@
-const S3 = require('aws-sdk/clients/s3')
+const S3 = require('aws-sdk/clients/s3');
+var AWS = require('aws-sdk');
 const path = require('path');
 var fs = require('fs');
 const core = require('@actions/core');
@@ -29,6 +30,10 @@ const DistributionId = core.getInput('distributionId', {
 });
 
 
+AWS.config.update({
+    accessKeyId: AWS_KEY_ID,
+    secretAccessKey: AWS_ACCESS_KEY,
+});
 
 // let source = './src/pre.sh'
 let s3 = new S3({
