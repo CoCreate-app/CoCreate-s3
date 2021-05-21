@@ -41,8 +41,8 @@ var params = {
 
 
 var cloudfront = new AWS.CloudFront();
-var distributions = cloudfront.listDistributions();
-console.log(distributions)
+// var distributions = cloudfront.listDistributions();
+
 cloudfront.createInvalidation(params, function(err, data) {
     if (err) console.log(err, err.stack); // an error occurred
     else console.log(data); // successful response
