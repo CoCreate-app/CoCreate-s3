@@ -84,7 +84,7 @@ async function uploadFile(filename) {
 }
 
 
-uploadFiles(mainsource)
+uploadFiles(mainsource);
 
 console.log('invalidation', INVALIDATIONS);
 console.log('Distribution', DistributionId);
