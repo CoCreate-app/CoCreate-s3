@@ -37,6 +37,9 @@ module.exports = {
             "css",
             "html"
         ],
+        // "media": [
+        //     "jpg", "png", ...
+        // ],
         ignores: [
             "node_modules",
             "vendor",
