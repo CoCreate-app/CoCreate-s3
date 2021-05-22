@@ -91,7 +91,7 @@ console.log('invalidation', INVALIDATIONS);
 console.log('Distribution', DistributionId);
 console.log('------------------');
 
-if (INVALIDATIONS && DistributionId !== '') {
+if (INVALIDATIONS) {
     var params = {
         DistributionId: DistributionId,
         /* required */
