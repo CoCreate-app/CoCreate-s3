@@ -86,8 +86,11 @@ async function uploadFile(filename) {
 
 uploadFiles(mainsource);
 
+console.log('------------------');
 console.log('invalidation', INVALIDATIONS);
 console.log('Distribution', DistributionId);
+console.log('------------------');
+
 if (INVALIDATIONS && DistributionId !== '') {
     var params = {
         DistributionId: DistributionId,
@@ -108,7 +111,7 @@ if (INVALIDATIONS && DistributionId !== '') {
 
     var cloudfront = new AWS.CloudFront();
     // var distributions = cloudfront.listDistributions();
-
+    console.log('******************');
     cloudfront.createInvalidation(params, function(err, data) {
         if (err) console.log(err, err.stack); // an error occurred
         else console.log(data); // successful response
