@@ -87,29 +87,29 @@ async function uploadFile(filename) {
 uploadFiles(mainsource)
 
 
-if (INVALIDATIONS && DistributionId !== '') {
-    var params = {
-        DistributionId: DistributionId,
-        /* required */
-        InvalidationBatch: { /* required */
-            CallerReference: Date.now().toString(),
-            /* required */
-            Paths: { /* required */
-                Quantity: 1,
-                /* required */
-                Items: [
-                    '/latest',
-                    /* more items */
-                ]
-            }
-        }
-    };
+// if (INVALIDATIONS && DistributionId !== '') {
+//     var params = {
+//         DistributionId: DistributionId,
+//         /* required */
+//         InvalidationBatch: { /* required */
+//             CallerReference: Date.now().toString(),
+//             /* required */
+//             Paths: { /* required */
+//                 Quantity: 1,
+//                 /* required */
+//                 Items: [
+//                     '/latest',
+//                     /* more items */
+//                 ]
+//             }
+//         }
+//     };
 
-    var cloudfront = new AWS.CloudFront();
-    // var distributions = cloudfront.listDistributions();
+//     var cloudfront = new AWS.CloudFront();
+//     // var distributions = cloudfront.listDistributions();
 
-    cloudfront.createInvalidation(params, function(err, data) {
-        if (err) console.log(err, err.stack); // an error occurred
-        else console.log(data); // successful response
-    });
-}
+//     cloudfront.createInvalidation(params, function(err, data) {
+//         if (err) console.log(err, err.stack); // an error occurred
+//         else console.log(data); // successful response
+//     });
+// }
