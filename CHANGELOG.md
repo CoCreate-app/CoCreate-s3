@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.11...v1.1.12) (2021-05-22)
+
+
+### Bug Fixes
+
+* add console log ([4b74aa6](https://github.com/CoCreate-app/CoCreate-s3/commit/4b74aa6274377cac46704b92aed6b21cf7f9a6e1))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.10...v1.1.11) (2021-05-21)
 
 
