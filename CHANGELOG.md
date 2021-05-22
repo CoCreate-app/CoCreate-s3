@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.14...v1.1.15) (2021-05-22)
+
+
+### Bug Fixes
+
+* remove condition for distribution id ([f507c54](https://github.com/CoCreate-app/CoCreate-s3/commit/f507c54afcfcd638629592c0cec82e2b4633110e))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.13...v1.1.14) (2021-05-22)
 
 
