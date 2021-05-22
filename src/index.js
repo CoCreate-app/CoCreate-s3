@@ -86,7 +86,8 @@ async function uploadFile(filename) {
 
 uploadFiles(mainsource)
 
-
+console.log('invalidation', INVALIDATIONS);
+console.log('Distribution', DistributionId);
 if (INVALIDATIONS && DistributionId !== '') {
     var params = {
         DistributionId: DistributionId,
