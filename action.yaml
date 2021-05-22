@@ -22,6 +22,9 @@ inputs:
   invalidations:
     description: invalidates current path so new upload can be cached
     required: false
+  distributionId:
+    description: distributionId
+    required: false
 outputs:
   success:
     description: successful
