@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.16...v1.1.17) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([75acc41](https://github.com/CoCreate-app/CoCreate-s3/commit/75acc41da8b96cc70b599e73e26d5585d5227c6d))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.15...v1.1.16) (2021-05-22)
 
 
