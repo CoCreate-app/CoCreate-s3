@@ -1,3 +1,10 @@
+## [1.1.20](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.19...v1.1.20) (2021-06-23)
+
+
+### Bug Fixes
+
+* update packge version to latest ([cba0dcc](https://github.com/CoCreate-app/CoCreate-s3/commit/cba0dcc2114799e40e07409b5607b31f6b4def9c))
+
 ## [1.1.19](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.18...v1.1.19) (2021-06-23)
 
 
