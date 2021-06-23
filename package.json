@@ -43,6 +43,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
+    "@cocreate/docs": "^1.1.11",
     "aws-sdk": "^2.820.0",
     "mini-css-extract-plugin": "^1.5.0"
   }
