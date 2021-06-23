@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.18...v1.1.19) (2021-06-23)
+
+
+### Bug Fixes
+
+* missing dependency ([f3085db](https://github.com/CoCreate-app/CoCreate-s3/commit/f3085db159e5a8d7efeb71c3144c7ab01af6a525))
+
 ## [1.1.18](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.17...v1.1.18) (2021-06-23)
 
 
