@@ -29,5 +29,5 @@ outputs:
   success:
     description: successful
 runs:
-  using: node12
-  main: ./src/index.js
+  using: 'docker'
+  image: 'docker://cocreateapps/cocreate-s3'
