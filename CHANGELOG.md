@@ -1,3 +1,10 @@
+## [1.1.25](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.24...v1.1.25) (2021-06-29)
+
+
+### Bug Fixes
+
+* Run action from docker ([a8bcbb9](https://github.com/CoCreate-app/CoCreate-s3/commit/a8bcbb9286363fe280fb6d65b45f8a279e76a980))
+
 ## [1.1.24](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.23...v1.1.24) (2021-06-29)
 
 
