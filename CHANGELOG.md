@@ -1,3 +1,10 @@
+## [1.1.24](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.23...v1.1.24) (2021-06-29)
+
+
+### Bug Fixes
+
+* add logger utility ([48fb585](https://github.com/CoCreate-app/CoCreate-s3/commit/48fb5856c3666d31a49a2d289de885f8641c56f5))
+
 ## [1.1.23](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.22...v1.1.23) (2021-06-25)
 
 
