@@ -1,11 +1,13 @@
 # CoCreate-s3
 
-A simple s3 component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/s3)
+A simple HTML5 and pure javascript component. Easy configuration using data-attributes and/or JavaScript API. Highly customizable and styleable. Take it for a spin in our [playground!](https://cocreate.app/docs/s3)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-s3/dist/CoCreate-s3.min.js?label=minified%20size&style=for-the-badge)
-![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-s3?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-s3?style=for-the-badge)
-![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-s3/help%20wanted?style=for-the-badge)
+![minified](https://img.badgesize.io/https://cdn.cocreate.app/s3/latest/CoCreate-s3.min.js?style=flat-square&label=minified&color=orange)
+![gzip](https://img.badgesize.io/https://cdn.cocreate.app/s3/latest/CoCreate-s3.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
+![brotli](https://img.badgesize.io/https://cdn.cocreate.app/s3/latest/CoCreate-s3.min.js?compression=brotli&style=flat-square&label=brotli)
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-s3?style=flat-square)
+![License](https://img.shields.io/github/license/CoCreate-app/CoCreate-s3?style=flat-square)
+![Hiring](https://img.shields.io/static/v1?style=flat-square&label=&message=Hiring&color=blueviolet)
 
 ![CoCreate-s3](https://cdn.cocreate.app/docs/CoCreate-s3.gif)
 
@@ -27,6 +29,12 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 
 ```shell
 $ npm i @cocreate/s3
+```
+
+## yarn
+
+```shell
+$ yarn install @cocreate/s3
 ```
 
 # Table of Contents
