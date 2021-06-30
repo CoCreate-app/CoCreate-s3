@@ -1,3 +1,4 @@
 # ignore
-.npmrc
 node_modules
+dist
+.npmrc
