@@ -1,3 +1,10 @@
+## [1.1.27](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.26...v1.1.27) (2021-06-30)
+
+
+### Bug Fixes
+
+* Update readme.md ([ec20e05](https://github.com/CoCreate-app/CoCreate-s3/commit/ec20e05f229d6423daa614a278d99ef0a1fd76ff))
+
 ## [1.1.26](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.25...v1.1.26) (2021-06-30)
 
 
