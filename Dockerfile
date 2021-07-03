@@ -1,8 +1,8 @@
-FROM mhart/alpine-node:12
+FROM node/14-alpine
 
 ENV NODE_ENV=production
 
 WORKDIR /usr/src/app
 
 COPY . /usr/src/app/
-CMD [ "yarn", "install" ]
+CMD [ "node", "./src/index.js" ]

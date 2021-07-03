@@ -29,5 +29,5 @@ outputs:
   success:
     description: successful
 runs:
-  using: 'docker'
-  image: 'docker://cocreateapps/cocreate-s3'
+  using: docker
+  image: Dockerfile
