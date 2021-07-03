@@ -5,4 +5,5 @@ ENV NODE_ENV=production
 WORKDIR /usr/src/app
 
 COPY . /usr/src/app/
-CMD [ "yarn", "install" ]
+
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
