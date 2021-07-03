@@ -6,4 +6,4 @@ WORKDIR /usr/src/app
 
 COPY . /usr/src/app/
 RUN yarn install
-CMD [ "nodejs", "./src/index.js" ]
+CMD [ "node", "./src/index.js" ]
