@@ -30,6 +30,12 @@ const DistributionId = core.getInput('distributionId', {
 });
 
 
+
+core.info('aaaaaaaaaaaa')
+core.info(BUCKET)
+core.info(VISIBILITY)
+core.info(mainsource)
+
 AWS.config.update({
     accessKeyId: AWS_KEY_ID,
     secretAccessKey: AWS_ACCESS_KEY,
