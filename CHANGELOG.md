@@ -1,9 +1,30 @@
-## [1.1.27](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.26...v1.1.27) (2021-06-30)
+## [1.1.33](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.32...v1.1.33) (2021-07-03)
 
 
 ### Bug Fixes
 
-* Update readme.md ([ec20e05](https://github.com/CoCreate-app/CoCreate-s3/commit/ec20e05f229d6423daa614a278d99ef0a1fd76ff))
+* 4 ([3664059](https://github.com/CoCreate-app/CoCreate-s3/commit/36640596128dd93cbafd1e57475dc14e036d16f6))
+
+## [1.1.32](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.31...v1.1.32) (2021-07-03)
+
+
+### Bug Fixes
+
+* 3 ([f103309](https://github.com/CoCreate-app/CoCreate-s3/commit/f10330930ec79ef53967cc6b6c17b180fa9a6b17))
+
+## [1.1.31](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.30...v1.1.31) (2021-07-03)
+
+
+### Bug Fixes
+
+* 2 ([122030e](https://github.com/CoCreate-app/CoCreate-s3/commit/122030ed0328133b907fbf439807c407c7bc21c2))
+
+## [1.1.30](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.29...v1.1.30) (2021-07-03)
+
+
+### Bug Fixes
+
+* aaaa ([446ba28](https://github.com/CoCreate-app/CoCreate-s3/commit/446ba28f683fc0a0e4242096cabffe5a20436eba))
 
 ## [1.1.26](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.25...v1.1.26) (2021-06-30)
 
