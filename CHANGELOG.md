@@ -1,3 +1,10 @@
+## [1.1.35](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.34...v1.1.35) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([7074256](https://github.com/CoCreate-app/CoCreate-s3/commit/7074256dbc04c5a814459dab4b87fc13f810c48f))
+
 ## [1.1.34](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.33...v1.1.34) (2021-07-10)
 
 
