@@ -1,3 +1,10 @@
+## [1.1.34](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.33...v1.1.34) (2021-07-10)
+
+
+### Bug Fixes
+
+* package.json syntax error ([a575069](https://github.com/CoCreate-app/CoCreate-s3/commit/a575069f2ce06d1786978bff3bc5244d7fac9b46))
+
 ## [1.1.33](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.32...v1.1.33) (2021-07-03)
 
 
