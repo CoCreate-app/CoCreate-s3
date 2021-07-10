@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/CoCreate-app/CoCreate-s3/issues"
   },
-  "homepage ": "https: //cocreatejs.com/docs/s3",
+  "homepage ": "https://cocreatejs.com/docs/s3",
     "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
