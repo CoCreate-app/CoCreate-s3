@@ -7,6 +7,11 @@ on:
           If set to 'true', invalidates previous upload.
         default: "true"
         required: true
+      invalidate paths:
+        description: |
+          Paths to be invalidated
+        default: "/latest/*"
+        required: false
 
 jobs:
   cdn:

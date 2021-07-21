@@ -25,6 +25,9 @@ inputs:
   distributionId:
     description: distributionId
     required: false
+  invalidate-paths:
+    description: paths to invalidate seperated by comma
+    required: false
 outputs:
   success:
     description: successful

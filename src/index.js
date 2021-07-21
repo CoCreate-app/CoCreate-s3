@@ -28,6 +28,9 @@ const INVALIDATIONS = core.getInput('invalidations', {
 const DistributionId = core.getInput('distributionId', {
     required: false
 });
+const InvalidatePaths = core.getInput('invalidate-paths', {
+    required: false
+});
 
 
 AWS.config.update({
@@ -97,7 +100,8 @@ if (INVALIDATIONS && DistributionId) {
                 Quantity: 1,
                 /* required */
                 Items: [
-                    '/latest',
+                    '/latest/*',
+                    // InvalidatePaths
                     /* more items */
                 ]
             }
