@@ -1,3 +1,11 @@
+## [1.1.40](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.39...v1.1.40) (2021-07-21)
+
+
+### Bug Fixes
+
+* build docker image ([06757b8](https://github.com/CoCreate-app/CoCreate-s3/commit/06757b848b92cb76e16847b5db411e9584e2dee2))
+* remove @semantic-release/npm ([8c95e7e](https://github.com/CoCreate-app/CoCreate-s3/commit/8c95e7e05545bfc61321da8ade7a130e2f139ff9))
+
 ## [1.1.39](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.38...v1.1.39) (2021-07-21)
 
 
