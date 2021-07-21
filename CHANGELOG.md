@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.38...v1.1.39) (2021-07-21)
+
+
+### Bug Fixes
+
+* invalidation path ([d67cb56](https://github.com/CoCreate-app/CoCreate-s3/commit/d67cb563e3da90356961a3d06d9564202e7bbb38))
+
 ## [1.1.38](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.37...v1.1.38) (2021-07-17)
 
 
