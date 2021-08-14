@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.40...v1.2.0) (2021-08-14)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([ab79786](https://github.com/CoCreate-app/CoCreate-s3/commit/ab79786e690da2fa9991cf41d068df13888304ff))
+* remove data- from fetch, pass and filter ([9ddb51c](https://github.com/CoCreate-app/CoCreate-s3/commit/9ddb51cce71729b5405c5f4edb14701c4749de5e))
+* update data-fullscreen to fullscreen ([92645bb](https://github.com/CoCreate-app/CoCreate-s3/commit/92645bb24cd719d815575dc40da8870d754b4983))
+* update to  docs ([5a72ff9](https://github.com/CoCreate-app/CoCreate-s3/commit/5a72ff96c0bf547bf12768ad1a84a61445029dcb))
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([23875bd](https://github.com/CoCreate-app/CoCreate-s3/commit/23875bd098b4938dbc45c08b71fb3de105658504))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.40...v1.2.0) (2021-08-02)
 
 
