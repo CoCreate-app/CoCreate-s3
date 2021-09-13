@@ -1,3 +1,32 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.40...v1.2.0) (2021-09-13)
+
+
+### Bug Fixes
+
+* bump package versions ([39e9d18](https://github.com/CoCreate-app/CoCreate-s3/commit/39e9d184fe269ed0efbf67fce5c91aa428e39e81))
+* bump package versions ([2b8792c](https://github.com/CoCreate-app/CoCreate-s3/commit/2b8792c7da777f2242f93bda374ae89463e60152))
+* ci docs ([c8eed61](https://github.com/CoCreate-app/CoCreate-s3/commit/c8eed610347767e63502403a395d2bc589f3a976))
+* CoCreate.config directory, path, name and  public ([288f6f6](https://github.com/CoCreate-app/CoCreate-s3/commit/288f6f66b656bdfe8d86a540a9a562488ef6d210))
+* remove data- from attributes ([ab79786](https://github.com/CoCreate-app/CoCreate-s3/commit/ab79786e690da2fa9991cf41d068df13888304ff))
+* remove data- from fetch, pass and filter ([9ddb51c](https://github.com/CoCreate-app/CoCreate-s3/commit/9ddb51cce71729b5405c5f4edb14701c4749de5e))
+* removed data- from main-content, clone, filter-value_type ([b1811af](https://github.com/CoCreate-app/CoCreate-s3/commit/b1811afeb0b949d26eed80dee95e186b422b8848))
+* updaed dependencies ([b9e3d9e](https://github.com/CoCreate-app/CoCreate-s3/commit/b9e3d9e056eb41bbe06a9f56f33e0a5291f1dfe4))
+* update data-fullscreen to fullscreen ([92645bb](https://github.com/CoCreate-app/CoCreate-s3/commit/92645bb24cd719d815575dc40da8870d754b4983))
+* update dependencies ([835f45b](https://github.com/CoCreate-app/CoCreate-s3/commit/835f45b31da4261df10ef1dec7f75ffc21af803c))
+* update dependencies ([6c01af1](https://github.com/CoCreate-app/CoCreate-s3/commit/6c01af183d1267c993d8f0f6595dafe375844d9e))
+* update dependencies ([8b903ba](https://github.com/CoCreate-app/CoCreate-s3/commit/8b903bad45aa867a8ac61c244cb95257dfde4c98))
+* update dependencies ([1023044](https://github.com/CoCreate-app/CoCreate-s3/commit/1023044b59270ee5a5a9b7bc1ae3b6ac2664b626))
+* update dependency @cocreate/docs ([5513b84](https://github.com/CoCreate-app/CoCreate-s3/commit/5513b84c91ae83058c3df3df20365682d255afa9))
+* update package versions ([109a791](https://github.com/CoCreate-app/CoCreate-s3/commit/109a791bf5c2f9e79f2c7121271a6c66765d210f))
+* update sidenav to use resize and toggle ([4424263](https://github.com/CoCreate-app/CoCreate-s3/commit/442426353703e42984a5d03868412e3000c50a68))
+* update to  docs ([5a72ff9](https://github.com/CoCreate-app/CoCreate-s3/commit/5a72ff96c0bf547bf12768ad1a84a61445029dcb))
+* upgrade dependencies ([62c6257](https://github.com/CoCreate-app/CoCreate-s3/commit/62c62573aaaed3be8df612c2e7b4e422f0a96db5))
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([23875bd](https://github.com/CoCreate-app/CoCreate-s3/commit/23875bd098b4938dbc45c08b71fb3de105658504))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-s3/compare/v1.1.40...v1.2.0) (2021-09-12)
 
 
