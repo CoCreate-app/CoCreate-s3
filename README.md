@@ -1,6 +1,6 @@
 # CoCreate-s3
 
-A simple HTML5 and pure javascript component. Easy configuration using data-attributes and/or JavaScript API. Highly customizable and styleable. Take it for a spin in our [playground!](https://cocreate.app/docs/s3)
+A simple HTML5 and pure javascript component. Easy configuration using HTML5 attributes or Javscript api and/or JavaScript API. Highly customizable and styleable. Take it for a spin in our [playground!](https://cocreate.app/docs/s3)
 
 ![minified](https://img.badgesize.io/https://cdn.cocreate.app/s3/latest/CoCreate-s3.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.cocreate.app/s3/latest/CoCreate-s3.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
