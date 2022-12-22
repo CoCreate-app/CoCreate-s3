@@ -21,9 +21,7 @@
     "javascript-framework",
     "framework"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -36,14 +34,12 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-s3/issues"
-  },
+  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-s3/issues" },
   "homepage ": "https://cocreatejs.com/docs/s3",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "@cocreate/docs": "^1.4.21",
+    "@cocreate/docs": "^1.4.22",
     "aws-sdk": "^2.820.0"
   }
 }
