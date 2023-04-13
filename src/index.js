@@ -81,7 +81,7 @@ async function uploadFile(filename) {
     // todo: path.relative return white space on same 
     config.Key = path.relative(mainsource, filename);
     config.Body = fs.createReadStream(filename);
-    config.ContentType = getMime(path.extname(filename).substr(1))
+    config.ContentType = getMime(path.extname(filename).substring(1))
     let r = await s3.upload(config).promise();
     console.log("Saving File in S3", r);
 }
