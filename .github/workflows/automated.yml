@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 16
       - name: Jaid/action-sync-node-meta
-        uses: jaid/action-sync-node-meta@v1.4.0
+        uses: jaid/action-sync-node-meta@v2.0.0
         with:
           direction: overwrite-github
           githubToken: "${{ secrets.GITHUB }}"
@@ -49,9 +49,9 @@ jobs:
       IMAGE: cocreateapps/cocreate-s3
       VERSION: ${{ needs.release.outputs.new_release_version }}
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Login to DockerHub
-      uses: docker/login-action@v1
+      uses: docker/login-action@v2
       with:
         username: ${{ secrets.DOCKERHUB_USER }}
         password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
