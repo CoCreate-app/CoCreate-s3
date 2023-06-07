@@ -44,7 +44,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "@cocreate/docs": "^1.7.15",
+    "@cocreate/docs": "^1.8.2",
     "aws-sdk": "^2.820.0"
   }
 }
